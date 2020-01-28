@@ -1,0 +1,38 @@
+publishDir = "build"
+
+baseURL = "http://localhost:1313"
+languageCode = "en"
+title = "Kubernetes Community Days Paris 2020"
+
+# Theme
+theme = "devfest-theme-hugo"
+
+# Params
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+[Params]
+    title = "Kubernetes Community Days Paris 2020"
+    date = "2020-10-31"
+    description = "Cloud Native Day is a community-led conference for all Cloud Native applications and platforms"
+    images = ["/images/social-share.jpg"]
+    email = "info@cloudnative.paris"
+    keywords = "event, kubernetes, developers, web, cloud"
+    copyright = "We :heart:️ Cloud Native"
+    cfpUrl = "https://conference-hall.io/"
+    # themeColor = "#416bde"
+    #themeColor = "#673ab7"
+    # subscriptionUrl = "https://aka.ms/kcdamsml"
+    # appleTouchIcon = "/apple-touch-icon.png"
+    # favicon32 = "/favicon-32x32.png"
+    # favicon16 = "/favicon-16x16.png"
+    # manifest = "/manifest.json"
+    # safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#494241"
+
+[Params.logos]
+    jumbo = "/images/logos/house_transparent.png"
+    header = "/images/logos/sun.png"
+    footer = "/images/logos/netlify-color-accent.svg"
+
